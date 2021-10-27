@@ -1,93 +1,177 @@
-# Vite 2.x + Vue 3.x + TypeScript Starter
+<p align="center">
+  <a href="https://vuestic.dev" target="_blank">
+    <img alt="Vuestic UI Logo" width="500" src="./public/img/vuestic-admin-logo.png">
+  </a>
+</p>
 
-[![Author](https://img.shields.io/badge/author-XPoet-orange.svg)](https://github.com/XPoet)
-[![License](https://img.shields.io/github/license/XPoet/vite-vue3-starter.svg)](https://github.com/XPoet/vite-vue3-starter/blob/master/LICENSE)
-[![Stars](https://img.shields.io/github/stars/XPoet/vite-vue3-starter)](https://github.com/XPoet/vite-vue3-starter)
-[![Deploy](https://github.com/XPoet/vite-vue3-starter/workflows/deploy/badge.svg)](https://github.com/XPoet/vite-vue3-starter/actions/workflows/deploy.yml)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-Airbnb-hotpink.svg)](https://github.com/lin-123/javascript)
-
-> 一套完美集成 Vite 2.x + Vue 3.x + TypeScript + Vue Router + Vuex + Axios + ESLint 等健壮的前端快速开发模板
-
-## 在线预览
-
-https://vite-vue3-starter.xpoet.cn/
-
-## 交流群
-
-欢迎小伙伴们加入前端技术交流群，因群成员大于 200 人，需要您关注公众号《前端鼓励师》，添加作者微信，再由作者拉你进群~
-
-<img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/FE-Cheerleaders/FEC-Card.76dbi8n1bkk0.png" width="80%" />
-
-## 从 0 到 1 搭建教程
-
-1️⃣&nbsp;[掘金](https://juejin.cn/post/6951649464637636622)&emsp;2️⃣&nbsp;[XPoet's Blog](https://xpoet.cn/2021/04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E6%89%8B%E6%8A%8A%E6%89%8B%E5%B8%A6%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E5%A5%97%E8%A7%84%E8%8C%83%E7%9A%84-Vue3.x-%E5%B7%A5%E7%A8%8B%E5%8C%96%E9%A1%B9%E7%9B%AE/)
+<p align="center">
+  Free and beautiful Vue.js admin template with 44+ custom UI components.</br>
+  Developed by  <a href="https://epicmax.co">Epicmax</a>.
+  Designed by <a href="https://xxsavitski.com/">Vasili Savitski</a>
+<br>
+Based on <a href="https://github.com/epicmaxco/vuestic-ui">Vuestic UI</a> library.
+</p>
 
 
-## 技术栈
+<p align="center">
+  <a href="https://vuestic.epicmax.co/admin/dashboard?theme=light"> Light theme demo </a> | <a href="https://vuestic.epicmax.co/admin/dashboard?theme=semi-dark">Semi-dark theme demo </a> | <a href="https://vuestic.epicmax.co/admin/dashboard?theme=original">Original theme demo </a> | <a href="https://vuestic.dev"> Vuestic UI documentation </a>
+</p>
 
-- 编程语言：[TypeScript 4.x](https://www.typescriptlang.org/zh/) + [JavaScript](https://www.javascript.com/)
-- 构建工具：[Vite 2.x](https://cn.vitejs.dev/)
-- 前端框架：[Vue 3.x](https://v3.cn.vuejs.org/)
-- 路由工具：[Vue Router 4.x](https://next.router.vuejs.org/zh/index.html)
-- 状态管理：[Vuex 4.x](https://next.vuex.vuejs.org/)
-- UI 框架：[Element Plus](https://element-plus.org/#/zh-CN)
-- CSS 预编译：[Stylus](https://stylus-lang.com/) / [Sass](https://sass.bootcss.com/documentation) / [Less](http://lesscss.cn/)
-- HTTP 工具：[Axios](https://axios-http.com/)
-- Git Hook 工具：[husky](https://typicode.github.io/husky/#/) + [lint-staged](https://github.com/okonet/lint-staged)
-- 代码规范：[EditorConfig](http://editorconfig.org) + [Prettier](https://prettier.io/) + [ESLint](https://eslint.org/) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#translation)
-- 提交规范：[Commitizen](http://commitizen.github.io/cz-cli/) + [Commitlint](https://commitlint.js.org/#/)
-- 单元测试：[vue-test-utils](https://next.vue-test-utils.vuejs.org/) + [jest](https://jestjs.io/) + [vue-jest](https://github.com/vuejs/vue-jest) + [ts-jest](https://kulshekhar.github.io/ts-jest/)
-- 自动部署：[GitHub Actions](https://docs.github.com/cn/actions/learn-github-actions)
+> Vuestic Admin is built with Vuestic UI. See our
+<a href="https://github.com/epicmaxco/vuestic-ui/issues">issues</a>,
+<a href="https://vuestic.dev/en/contribution/guide">contributing guide</a> and join discussions on our
+<a href="https://discord.gg/jTKTjj2weV">discord server</a> to help us improve Vuestic Admin & Vuestic UI experience.
 
-## 快速开始
+<p align="center">
+  <a href="https://vuestic.epicmax.co" target="_blank">
+    <img src="./public/img/vuestic-admin-image.jpg" align="center" width="888px"/>
+  </a>
+</p>
 
-### 获取项目
+<p align="center">
+  <a href="https://circleci.com/gh/epicmaxco/vuestic-admin">
+    <img src="https://img.shields.io/circleci/build/github/epicmaxco/vuestic-admin/master" alt="Circleci">
+  </a>
+</p>
 
-#### 使用 Git
+### Documentation
 
-```sh
-git clone https://github.com/XPoet/vite-vue3-starter.git
+Documentation, guides and tutorials are available
+on <a href="https://vuestic.dev">vuestic.dev</a>
+
+### Official Discord Server
+
+Ask questions at the official
+community [discord server](https://discord.gg/jTKTjj2weV)
+
+### Installation
+
+First of all, make sure you have all prerequisites installed:
+
+* [Node.js](https://nodejs.org/en/) ( >=14.*)
+* [npm](https://www.npmjs.com/get-npm) version 3+ (
+  or [yarn](https://yarnpkg.com/lang/en/docs/install) version 1.16+)
+  and [Git](https://git-scm.com).
+
+After checking the prerequisites, follow these simple steps to install and use
+Vuestic Admin:
+
+```
+# clone the repo
+$ git clone https://github.com/epicmaxco/vuestic-admin.git myproject
+
+# go into app's directory and install dependencies:
+$ cd myproject
+
 ```
 
-#### 使用 NPM
+Then, if you use npm:
 
-```sh
-npm install vite-vue-ts-cli -g
+```
+$ npm install
 
-vite-vue-ts-create myapp
+# serve with hot reload at localhost:8080 by default.
+$ npm run serve
+
+# build for production
+$ npm run build
+
+# build for production and view the bundle analyzer report.
+$ npm run build --report
 ```
 
-### 安装依赖
+If you use yarn:
 
-```sh
-npm install
-# or
-yarn add
+```
+$ yarn install
+
+# serve with hot reload at localhost:8080 by default.
+$ yarn serve
+
+# build for production
+$ yarn build
+
+# build for production and view the bundle analyzer report.
+$ yarn build --report
 ```
 
-### 启动项目
+### Features
 
-```sh
-npm run dev
-```
+[Responsive layout](https://vuestic.epicmax.co/admin/dashboard) |
+[charts (Chart.js)](https://vuestic.epicmax.co/admin/statistics/charts) |
+[progress bars](https://vuestic.epicmax.co/admin/statistics/progress-bars) |
+[forms](https://vuestic.epicmax.co/admin/forms/form-elements) |
+[selects](https://vuestic.epicmax.co/admin/forms/form-elements) |
+[date pickers](https://vuestic.epicmax.co/admin/forms/form-elements) |
+[checkboxes and radios](https://vuestic.epicmax.co/admin/forms/form-elements)
+|
+[static tables and data tables](https://vuestic.epicmax.co/admin/tables/data)
+|
+[medium editor](https://vuestic.epicmax.co/admin/forms/medium-editor) |
+[smooth typography](https://vuestic.epicmax.co/admin/ui/typography) |
+[buttons](https://vuestic.epicmax.co/admin/ui/buttons) |
+[collapses](https://vuestic.epicmax.co/admin/ui/collapses) |
+[color pickers](https://vuestic.epicmax.co/admin/ui/color-pickers) |
+[timelines](https://vuestic.epicmax.co/admin/ui/timelines) |
+[toasts](https://vuestic.epicmax.co/admin/ui/notifications) |
+[tooltips](https://vuestic.epicmax.co/admin/ui/popovers) |
+[popovers](https://vuestic.epicmax.co/admin/ui/popovers) |
+[icons](https://vuestic.epicmax.co/admin/ui/icons/) |
+[spinners](https://vuestic.epicmax.co/admin/ui/spinners) |
+[modals](https://vuestic.epicmax.co/admin/ui/modals) |
+[file upload](https://vuestic.epicmax.co/admin/ui/file-upload) |
+[chips](https://vuestic.epicmax.co/admin/ui/chips) |
+[trees](https://vuestic.epicmax.co/admin/ui/tree-view) |
+[cards](https://vuestic.epicmax.co/admin/ui/cards) |
+[ratings](https://vuestic.epicmax.co/admin/ui/rating) |
+[sliders](https://vuestic.epicmax.co/admin/ui/sliders) |
+[chat](https://vuestic.epicmax.co/admin/ui/chatPage) |
+[maps (Google, Yandex, Leaflet, amMap)](https://vuestic.epicmax.co/admin/maps/google-maps)
+|
+[login/signup pages templates](https://vuestic.epicmax.co/auth/login) |
+[404 pages templates](https://vuestic.epicmax.co/admin/pages/404-pages) |
+[i18n](https://vuestic.epicmax.co/admin/dashboard)
 
-### 项目打包
+### Browser Support
 
-```sh
-npm run build
-```
+We design Vuestic Admin to support the latest modern web browsers.
 
-## Q&A
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" /><br>Edge | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" /><br>Firefox | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" /><br>Chrome | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" /><br>Safari | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" /><br>Opera |
+| --- | --- | --- | --- | --- |
+| Edge | last 2 versions  | last 2 versions | last 2 versions | last 2 versions |
 
-1. Q: `git cz` 不生效  
+### Contributing
 
-   A: 请全局安装 commitizen，命令：`npm install commitizen -g`
+Thanks for all your wonderful PRs, issues and ideas.
+<a href="https://github.com/epicmaxco/vuestic-admin/graphs/contributors">
+<img src="https://opencollective.com/vuestic-admin/contributors.svg?width=890&button=false" />
+</a>
+<br>
+You’re always welcome to join: check out
+our <a href="https://vuestic.dev/en/contribution/guide">
+contribution guides</a>
+, [open issues](https://github.com/epicmaxco/vuestic-ui/issues)
+and [discord server](https://discord.gg/jTKTjj2weV)
 
-2. Q: husky 报错  
+## Can I hire you guys?
+Yes! Say hi: [hello@epicmax.co](mailto:hello@epicmax.co) </br>
+We will be happy to work with you! Other [work we’ve done](https://epicmax.co)
 
-   A: 请检查你的项目下是否有 Git 仓库，没有则先 `git init` 初始化一个
+### Awards
 
-## 许可
+<a href="https://flatlogic.com/templates/vuestic-vue-free-admin" target="_blank">
+    <img src="https://i.imgur.com/ZeQPZ3Q.png" align="center" width="150px"/>
+</a>
+<p>
+  By <a href="https://flatlogic.com/templates/vuestic-vue-free-admin" target="_blank">@flatlogic</a> marketplace
+</p>
 
-MIT Copyright © 2021 XPoet
+### Follow us
 
+Stay up to date with the latest Vuestic news! Follow us
+on [Twitter](https://twitter.com/epicmaxco)
+or [Facebook](https://facebook.com/epicmaxco)
+
+### License
+
+[MIT](https://github.com/epicmaxco/vuestic-admin/blob/master/LICENSE) license.

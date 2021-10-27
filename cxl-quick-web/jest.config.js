@@ -1,14 +1,22 @@
 module.exports = {
-  moduleFileExtensions: ['vue', 'js', 'ts'],
-  preset: 'ts-jest',
-  testEnvironment: 'jsdom',
+  moduleFileExtensions: ['vue', 'js', 'json', 'jsx', 'ts', 'tsx', 'node'],
+
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
+  },
+
+  snapshotSerializers: [
+    'jest-serializer-vue',
+  ],
+  testMatch: [
+    '**/unit/**/*.spec.(js|jsx|ts|tsx)',
+  ],
+  testURL: 'http://localhost/',
+  preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',
+
   transform: {
     '^.+\\.vue$': 'vue-jest',
-    '^.+\\.ts$': 'ts-jest'
+    '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
+    '^.+\\.jsx?$': 'babel-jest',
   },
-  // 匹配 __tests__ 目录下的 .js/.ts 文件 或 xx.test.js/ts xx.spec.js/ts
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(js|ts)$',
-  moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1' // 配置 jest 下 @ -> src
-  }
 }

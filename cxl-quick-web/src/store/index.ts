@@ -1,23 +1,17 @@
-import { InjectionKey } from 'vue'
-import { createStore, Store, useStore as baseUseStore } from 'vuex'
-import RootStateTypes, { AllStateTypes } from './types'
+import { createStore } from 'vuex'
 
-import numFactoryModule from './modules/NumFactory'
-
-export const store = createStore<RootStateTypes>({
+export default createStore({
+  strict: true, // process.env.NODE_ENV !== 'production',
   state: {
-    text: 'This is Vuex Root.state.text'
+    isSidebarMinimized: false,
+    userName: 'Vasili S'
   },
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {
-    numFactoryModule
-  }
+  mutations: {
+    updateSidebarCollapsedState(state, isSidebarMinimized) {
+      state.isSidebarMinimized = isSidebarMinimized
+    },
+    changeUserName(state, newUserName) {
+      state.userName = newUserName
+    }
+  },
 })
-
-export const key: InjectionKey<Store<RootStateTypes>> = Symbol('vue-store')
-
-export function useStore<T = AllStateTypes>() {
-  return baseUseStore<T>(key)
-}
